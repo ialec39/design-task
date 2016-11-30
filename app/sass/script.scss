@@ -1,0 +1,174 @@
+$wrap-width: 55em;
+$default-font: "tahoma", sans-serif;
+$text-default: #302f30;
+
+body,
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: $default-font;
+  background: url("../img/newspaper.jpg");
+  background-size: cover;
+}
+
+.page-wrap {
+  background-color: #ffffff;
+  width: $wrap-width;
+  margin: 0 auto;
+  position: relative;
+  padding: 2em 2em 0;
+}
+
+.col-1 {
+  width: ($wrap-width / 12);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-2 {
+  width: ($wrap-width / 6);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-3 {
+  width: ($wrap-width / 4);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-4 {
+  width: ($wrap-width / 3);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-5 {
+  width: ($wrap-width / 2.25);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-6 {
+  width: ($wrap-width / 2);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-7 {
+  width: ($wrap-width / 1.75);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-8 {
+  width: ($wrap-width / 1.55);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-9 {
+  width: ($wrap-width / 1.37);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-10 {
+  width: ($wrap-width / 1.25);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-11 {
+  width: ($wrap-width / 1.1);
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  color: $text-default;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+h2, h3 {
+  color: $text-default;
+  font-family: $default-font;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+h3 {
+  text-align: center;
+}
+
+nav {
+  ul {
+    margin: 0;
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    font-family: $default-font;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+  }
+
+  a {
+    padding: 0.375em 1em;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s background-color;
+
+    &:hover {
+      background-color: #005f5f;
+    }
+  }
+}
+
+img {
+  width: 35em;
+  height: 25em;
+}
+
+ul {
+    padding: 0 1em;
+}
+
+a {
+  text-decoration: none;
+
+  img {
+    width: 13em;
+    height: 13em;
+  }
+
+  .logo {
+    width: 8em;
+    height: 5em;
+  }
+
+  .social {
+    width: 3em;
+    height: 3em;
+    float: right;
+    padding: 0.35em;
+  }
+}
+
+footer {
+    width: $wrap-width;
+    background-color: #d6d6d6;
+    border-top: 1px solid #d8d8d8;
+    margin: 0 auto;
+    height: 75px;
+}
